@@ -27,4 +27,12 @@
 
 
 <!-- scripts -->
+<script>
+var markers = <%-JSON.stringify(places)%>;
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzzIMFgI9ZO7t9uXR-dk9yWql1AVzFOEM&callback=initMap">
+</script>
+
 <script src="/js/script.js"></script>
